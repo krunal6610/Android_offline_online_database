@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="20dp"
+    android:elevation="20dp"
+    app:cardBackgroundColor="#2196F3"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/raw_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Krunal Parekh"
+            android:textStyle="bold"
+            android:layout_margin="12dp"
+            android:textSize="25sp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/raw_email_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Krunal Parekh"
+            android:layout_margin="12dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
